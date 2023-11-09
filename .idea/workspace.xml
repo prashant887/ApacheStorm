@@ -5,32 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f212fd-32df-4a21-8da7-064939f72184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TopologyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/TopologyAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/TopologyCustom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/TopologyFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/TopologyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/WordCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/WordReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/wordCounter/alphaGrouping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yfBolt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yfSpout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reliability/ReliableWordReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reliability/TopologyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/reliability/randomFailureBolt.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +28,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.storm/storm-client/2.5.0/fbe5eea9c013e487ff3b7971edc16caa4962524a/storm-client-2.5.0-sources.jar!/org/apache/storm/topology/base/BaseBasicBolt.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -77,7 +57,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TopologyCustom">
+  <component name="RunManager" selected="Application.reliability.TopologyMain">
     <configuration name="TopologyAll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="wordCounter.TopologyAll" />
       <module name="ApacheStorm.main" />
@@ -117,9 +97,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TopologyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TopologyMain" />
+    <configuration name="reliability.TopologyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="reliability.TopologyMain" />
       <module name="ApacheStorm.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="reliability.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.reliability.TopologyMain" />
         <item itemvalue="Application.TopologyCustom" />
         <item itemvalue="Application.TopologyAll" />
         <item itemvalue="Application.TopologyFields" />
         <item itemvalue="Application.wordCounter.TopologyMain" />
-        <item itemvalue="Application.TopologyMain" />
       </list>
     </recent_temporary>
   </component>
