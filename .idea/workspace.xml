@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91f212fd-32df-4a21-8da7-064939f72184" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/StateTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/aggregateTrident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/drpcTopology.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/groupByTrident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/helloWorldTrident.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/trident/splitFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/bolt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/storm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/machineLearning/TopologyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/machineLearning/pythonBolt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -53,6 +52,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/pl/IdeaProjects/ApacheStorm/python",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
@@ -60,8 +63,11 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/python" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.groupByTrident">
+  <component name="RunManager" selected="Application.TopologyMain">
     <configuration name="StateTopology" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="trident.StateTopology" />
       <module name="ApacheStorm.main" />
@@ -75,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="aggregateTrident" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trident.aggregateTrident" />
+    <configuration name="TopologyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="machineLearning.TopologyMain" />
       <module name="ApacheStorm.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trident.*" />
+          <option name="PATTERN" value="machineLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +120,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="helloWorldTrident" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trident.helloWorldTrident" />
-      <module name="ApacheStorm.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="trident.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="Hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ApacheStorm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="software.aws.toolkits.jetbrains.core.execution.PythonAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/Hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TopologyMain" />
+        <item itemvalue="Python.Hello" />
         <item itemvalue="Application.groupByTrident" />
         <item itemvalue="Application.StateTopology" />
         <item itemvalue="Application.drpcTopology" />
-        <item itemvalue="Application.aggregateTrident" />
-        <item itemvalue="Application.helloWorldTrident" />
       </list>
     </recent_temporary>
   </component>
